@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "WaybackURL by Nikhil Sharma",
+  "version": "1.0",
+  "description": "Modifies URLs by removing 'http://' or 'https://' and replaces the domain. Created by Nikhil Sharma.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "permissions": ["tabs"]
+}
